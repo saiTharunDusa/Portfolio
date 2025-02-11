@@ -85,7 +85,7 @@ const Skills: React.FC = () => {
     {
       icon: <Cloud />,
       title: "DevOps & Version Control",
-      skills: ["Docker", "Jenkins", "Git", "GitHub"],
+      skills: ["Docker", "Kubernetes", "CI/CD Pipeline using Jenkins", "Git", "GitHub"],
     },
     {
       icon: <Wrench />,

@@ -57,7 +57,6 @@ const Achievements = () => {
       highlights: [
         "Sharpened algorithmic problem-solving skills",
         "Boosted confidence in coding challenges",
-        "Improved time and space complexity optimization",
       ],
       icon: <Cpu className="w-6 h-6" />,
       link: "https://leetcode.com/u/sd2672/",
@@ -68,7 +67,6 @@ const Achievements = () => {
       highlights: [
         "Enhanced front-end responsiveness of responsively-app",
         "Improved user experience in open-source projects",
-        "Collaborated with global developer community",
       ],
       icon: <Github className="w-6 h-6" />,
       link: "https://github.com/saiTharunDusa",

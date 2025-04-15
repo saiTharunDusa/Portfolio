@@ -84,13 +84,8 @@ const Skills: React.FC = () => {
     },
     {
       icon: <Cloud />,
-      title: "DevOps & Version Control",
-      skills: ["Docker", "Kubernetes", "CI/CD Pipeline using Jenkins", "Git", "GitHub"],
-    },
-    {
-      icon: <Wrench />,
-      title: "Development Tools",
-      skills: ["Postman", "VS Code", "GitHub Co-pilot"],
+      title: "Development Tools & Version Control",
+      skills: ["Git", "GitHub", "Postman", "VS Code"],
     },
     {
       icon: <Book />,
@@ -108,6 +103,7 @@ const Skills: React.FC = () => {
         "Prompt Evaluation and Iteration",
       ],
     },
+    
   ]
 
   return (

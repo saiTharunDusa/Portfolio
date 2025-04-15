@@ -20,18 +20,19 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Netflix-GPT",
-      description: "GPT-powered movie discovery tool with personalized search-based suggestions.",
-      highlights: [
-        "Enhanced user engagement using Tailwind CSS & accessibility",
-        "Integrated auto-playing trailers and multilingual search bar",
-        "Achieved 100 SEO scores in Lighthouse",
-        "Improved performance score from 83 to 90+ using Lazy loading",
+      title : "RummyBuddy",
+      description : "RummyBuddy is a scorekeeping companion app developed in React Native, designed for Indian families and friend groups who play the physical version of 13-card Indian Rummy. Instead of digitizing the card game, the app replicates the real-world scoring experience: users manually play with cards offline, then enter their scores round-by-round in the app.",
+      highlights : [
+        "Created RummyBuddy, a React Native app for offline Rummy score tracking with 95%+ functionality using Redux Persist.",
+        "Reduced Firestore usage by 80% by saving data only when the app goes to background or user logs out.",
+        "Implemented dynamic round logic with dealer rotation, edit scores, enter scores and re-entry, ensuring 100% accurate game flow.",
+       "Enabled user-specific data recovery with Firebase Auth, supporting secure state persistence post-uninstall."
       ],
-      tech: ["React", "Tailwind CSS", "GPT", "AWS Amplify"],
-      github: "https://github.com/saiTharunDusa/netflix-gpt",
-      live: "https://main.d2atfy7ms5mok0.amplifyapp.com/browse",
+      tech : ["React Native CLI", "Firebase Auth", "Firebase Firestore"],
+      github : "https://github.com/saiTharunDusa/RummyBuddy",
+      live: "Coming soon...."
     },
+    
     {
       title: "DevTinder",
       description: "Developer matchmaking platform using MERN stack for freelancers and open-source contributors.",
@@ -44,6 +45,19 @@ const Projects = () => {
       tech: ["MERN Stack", "WebSocket", "AWS EC2", "NGINX"],
       github: "https://github.com/saiTharunDusa/devTinder-Frontend",
       live: "https://www.devtinder.co/login",
+    },
+    {
+      title: "Netflix-GPT",
+      description: "GPT-powered movie discovery tool with personalized search-based suggestions.",
+      highlights: [
+        "Enhanced user engagement using Tailwind CSS & accessibility",
+        "Integrated auto-playing trailers and multilingual search bar",
+        "Achieved 100 SEO scores in Lighthouse",
+        "Improved performance score from 83 to 90+ using Lazy loading",
+      ],
+      tech: ["React", "Tailwind CSS", "GPT", "AWS Amplify"],
+      github: "https://github.com/saiTharunDusa/netflix-gpt",
+      live: "https://main.d2atfy7ms5mok0.amplifyapp.com/browse",
     },
   ]
 

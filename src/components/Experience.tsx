@@ -37,19 +37,23 @@ const Experience = () => {
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start">
               <span className="mr-2">•</span>
-              Engineered responsive user interfaces using React.js and Tailwind CSS, implementing adaptive design techniques to enhance cross-device user experience and interface accessibility.
+              	Built responsive UI components with React.js and Tailwind CSS under senior developer supervision.
+
             </li>
             <li className="flex items-start">
               <span className="mr-2">•</span>
-              Developed comprehensive full-stack features leveraging modern web technologies, including dynamic product management with secure JWT authentication, React Router protection, and advanced state management using Redux Toolkit.
+              Connected frontend components to existing RESTful APIs to display and update data from MongoDB. 
+
             </li>
             <li className="flex items-start">
               <span className="mr-2">•</span>
-              Implemented robust backend infrastructure by designing MongoDB schemas and integrating RESTful APIs, optimizing data retrieval, processing efficiency, and maintaining critical data integrity.
+              Implemented user authentication flows using JWT and configured protected routes with React Router following team guidelines.
+
             </li>
             <li className="flex items-start">
               <span className="mr-2">•</span>
-              Constructed CI/CD pipelines with Jenkins, streamlining software development workflows and Containerized applications using Docker.
+              Collaborated in a 6-person development team through daily stand-ups and code reviews
+
             </li>
           </ul>
         </motion.div>

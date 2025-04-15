@@ -17,7 +17,7 @@ function App() {
         <Achievements/>
         <Skills />
       </main>
-    </div>
+    </div> 
   );
 }
 

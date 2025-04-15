@@ -113,7 +113,7 @@ const Education = () => {
               className="text-gray-700 mb-4"
               whileHover={{ x: 10 }}
             >
-              CGPA: 3.56 / 4.0
+              CGPA: 3.55 / 4.0
             </motion.p>
             <motion.div 
               className="bg-gray-50 p-4 rounded-lg"

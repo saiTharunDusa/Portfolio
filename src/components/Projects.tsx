@@ -59,6 +59,27 @@ const Projects = () => {
       github: "https://github.com/saiTharunDusa/netflix-gpt",
       live: "https://main.d2atfy7ms5mok0.amplifyapp.com/browse",
     },
+    {
+      title: "Food Delivery Web Application",
+      description: "Frontend of Food Delivery Web Application.",
+      highlights: [
+        "Built a performant food delivery web app using React.js, Redux Toolkit, and lazy loading, with optimized builds via Parcel, enabling Hot Module Replacement (HMR), caching, and code minification for faster load times.",
+        "Led test coverage and deployment by integrating React Testing Library, Jest, and Babel for end-to-end reliability, and deploying the platform on AWS Amplify for scalable, fault-tolerant delivery.",
+      ],
+      tech: ["React", "Tailwind CSS", "ReduxJS Toolkit", "React Testing Library", "Jest", "Babel", "AWS Amplify"],
+      github: "https://github.com/saiTharunDusa/REACT",
+      live: "https://main.d5znqyb40zfma.amplifyapp.com/",
+    },
+    {
+      title: "E-commerce Application",
+      description: "Bachelors final year project",
+      highlights: [
+        "Built a full-stack shopping cart platform with real-time product updates, secure user authentication (login, logout, reset) using Node.js, Express, and MongoDB, and an admin dashboard for inventory control with React.js and Redux.",
+        "Integrated Braintree for payment processing, including card validation and transaction confirmation UI, delivering a secure and responsive e-commerce experience.",
+      ],
+      tech: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"],
+      github: "https://github.com/tharundusa/Ecommerce-page",
+    },
   ]
 
   return (

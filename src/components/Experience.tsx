@@ -19,7 +19,14 @@ const Experience = () => {
         >
           <Briefcase className="text-blue-600" />
           Professional Experience
-          <a href='https://drive.google.com/file/d/18CVkt9PsOpaXTKxfn6CFn8-T0gk73_d8/view?usp=drive_link'>| Certificate</a>
+          <a 
+            href="https://drive.google.com/file/d/18CVkt9PsOpaXTKxfn6CFn8-T0gk73_d8/view?usp=drive_link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm text-blue-600 underline ml-3"
+          >
+            View Certificate
+          </a>
         </motion.h2>
         
         <motion.div
@@ -30,30 +37,35 @@ const Experience = () => {
           className="bg-white rounded-lg shadow-lg p-8"
         >
           <div className="flex flex-col md:flex-row justify-between mb-4">
-            <h3 className="text-2xl font-bold text-gray-800">IT4YOURBUSINESS</h3>
-            <p className="text-gray-600">Jan 2023 – Jun 2023</p>
+            <h3 className="text-2xl font-bold text-gray-800">IT4YOURBUSINESS PRIVATE LIMITED</h3>
+            <p className="text-gray-600">Jan 2023 – Jun 2023 · Hyderabad, India</p>
           </div>
           <h4 className="text-xl text-blue-600 mb-4">Software Engineer Intern</h4>
+          
+          <p className="text-gray-700 mb-6">
+            Worked on full-stack product features in a fast-paced development team, contributing to both frontend and backend systems. Focused on building interactive UIs, automating internal tools, and implementing secure authentication mechanisms.
+          </p>
+
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start">
               <span className="mr-2">•</span>
-              	Built responsive UI components with React.js and Tailwind CSS under senior developer supervision.
-
+              Developed dynamic, responsive user interfaces using <strong>React.js</strong> and <strong>Tailwind CSS</strong>, integrated with backend APIs using custom hooks.
             </li>
             <li className="flex items-start">
               <span className="mr-2">•</span>
-              Connected frontend components to existing RESTful APIs to display and update data from MongoDB. 
-
+              Implemented <strong>JWT-based authentication</strong> and protected routing with <strong>React Router</strong>, enabling secure role-based access.
             </li>
             <li className="flex items-start">
               <span className="mr-2">•</span>
-              Implemented user authentication flows using JWT and configured protected routes with React Router following team guidelines.
-
+              Built backend API endpoints using <strong>FastAPI</strong> and <strong>MongoDB</strong> for CRUD operations and input validation.
             </li>
             <li className="flex items-start">
               <span className="mr-2">•</span>
-              Collaborated in a 6-person development team through daily stand-ups and code reviews
-
+              Automated internal workflows using <strong>Python scripting</strong> and <strong>IPyWidgets</strong>, reducing manual effort for admin users.
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2">•</span>
+              Participated in agile sprints, team stand-ups, peer code reviews, and end-to-end testing cycles.
             </li>
           </ul>
         </motion.div>

@@ -63,7 +63,7 @@ const Skills: React.FC = () => {
     {
       icon: <Terminal />,
       title: "Web Technologies",
-      skills: ["HTML", "CSS", "JavaScript"],
+      skills: ["HTML", "CSS", "JavaScript", "Typescript"],
     },
     {
       icon: <Brain />,

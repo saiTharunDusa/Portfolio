@@ -19,14 +19,6 @@ const Experience = () => {
       >
         <Briefcase className="text-blue-600" />
         <span>Professional Experience</span>
-        <a 
-          href="https://drive.google.com/file/d/18CVkt9PsOpaXTKxfn6CFn8-T0gk73_d8/view?usp=drive_link" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-sm text-blue-600 underline sm:ml-3"
-        >
-          View Certificate
-        </a>
       </motion.h2>
       
       <motion.div
@@ -36,40 +28,64 @@ const Experience = () => {
         transition={{ duration: 0.8 }}
         className="bg-white rounded-lg shadow-lg p-4 sm:p-6 md:p-8"
       >
+        {/* Current Experience */}
         <div className="flex flex-col md:flex-row md:justify-between gap-2 mb-4">
           <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">
-            IT4YOURBUSINESS PRIVATE LIMITED
+            Cloud Data Technology
           </h3>
           <p className="text-gray-600 text-sm sm:text-base">
-            Jan 2023 – Jun 2023 · Hyderabad, India
+            Feb 2025 – present · Wilmington, DE
           </p>
         </div>
   
         <h4 className="text-base sm:text-lg md:text-xl text-blue-600 mb-4">
-          Software Engineer Intern
+          Front End Developer (Unpaid)
         </h4>
         
         <p className="text-gray-700 text-sm sm:text-base mb-6 leading-relaxed">
-          Worked on full-stack product features in a fast-paced development team, contributing to both frontend and backend systems. Focused on building interactive UIs, automating internal tools, and implementing secure authentication mechanisms.
+          Building high-performance web applications with focus on responsive design, performance optimization, and seamless user experiences. Working with modern React ecosystem and GraphQL to deliver scalable solutions.
         </p>
   
         <ul className="list-disc pl-6 space-y-3 text-gray-700 text-sm sm:text-base">
-  <li>
-    Developed dynamic, responsive user interfaces using <strong>React.js</strong> and <strong>Tailwind CSS</strong>, integrated with backend APIs using custom hooks.
-  </li>
-  <li>
-    Implemented <strong>JWT-based authentication</strong> and protected routing with <strong>React Router</strong>, enabling secure role-based access.
-  </li>
-  <li>
-    Built backend API endpoints using <strong>FastAPI</strong> and <strong>MongoDB</strong> for CRUD operations and input validation.
-  </li>
-  <li>
-    Automated internal workflows using <strong>Python scripting</strong> and <strong>IPyWidgets</strong>, reducing manual effort for admin users.
-  </li>
-  <li>
-    Participated in agile sprints, team stand-ups, peer code reviews, and end-to-end testing cycles.
-  </li>
-</ul>
+          <li>
+            Delivered responsive and reusable <strong>React components</strong> that improved user engagement by <strong>15%</strong> through better UI responsiveness and design accuracy aligned with Figma specifications.
+          </li>
+          <li>
+            Reduced page load times by <strong>30%</strong> using <strong>lazy loading</strong> and <strong>code splitting</strong> techniques, enhancing overall application speed and scalability.
+          </li>
+          <li>
+            Integrated <strong>GraphQL APIs</strong> to optimize data fetching workflows, decreasing API response handling time by <strong>25%</strong> and improving data-driven feature performance.
+          </li>
+        </ul>
+
+        {/* Previous Experience */}
+        <div className="mt-12 pt-8 border-t border-gray-200">
+          <div className="flex flex-col md:flex-row md:justify-between gap-2 mb-4">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">
+              It4yourbusiness
+            </h3>
+            <p className="text-gray-600 text-sm sm:text-base">
+              Aug 2021 – Jun 2023 · India
+            </p>
+          </div>
+    
+          <h4 className="text-base sm:text-lg md:text-xl text-blue-600 mb-4">
+            Software Engineer
+          </h4>
+          
+          <p className="text-gray-700 text-sm sm:text-base mb-6 leading-relaxed">
+            Developed scalable frontend components and automated critical business workflows. Focused on creating reusable UI components with comprehensive testing and implementing Python automation solutions.
+          </p>
+    
+          <ul className="list-disc pl-6 space-y-3 text-gray-700 text-sm sm:text-base">
+            <li>
+              Developed <strong>23 reusable UI components</strong> using <strong>React.js</strong>, <strong>Tailwind CSS</strong> and <strong>FastAPI Integration</strong> with comprehensive <strong>Jest testing</strong>, reducing development time by <strong>31%</strong> and production bugs by <strong>26%</strong>.
+            </li>
+            <li>
+              Automated <strong>9 critical workflows</strong> using <strong>Python scripting</strong>, eliminating <strong>47 manual tasks</strong> and reducing processing time by <strong>73%</strong> to boost operational efficiency.
+            </li>
+          </ul>
+        </div>
 
       </motion.div>
     </div>
